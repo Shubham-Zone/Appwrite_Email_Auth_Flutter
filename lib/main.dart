@@ -6,8 +6,8 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Client client = Client();
   client
-      .setEndpoint('https://cloud.appwrite.io/v1')
-      .setProject('66a492c8001b7290a7ee')
+      .setEndpoint('YOUR_ENGPOINT')
+      .setProject('YOUR_PROJECT_ID')
       .setSelfSigned(status: true);
   Account account = Account(client);
 
